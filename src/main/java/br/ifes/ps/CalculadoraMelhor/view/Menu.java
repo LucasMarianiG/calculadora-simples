@@ -44,7 +44,7 @@ public class Menu {
             System.out.println("Resultado: " + a + " " + op + " " + b + " = " + resultado);
         }
 
-        // Utilitário
+        // Utilitários
         public boolean isSair(String entrada) {
             return "sair".equalsIgnoreCase(entrada);
         }

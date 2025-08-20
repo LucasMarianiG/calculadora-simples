@@ -11,7 +11,7 @@ public class Main{
             String entrada;
             double primeiroNumero, segundoNumero;
 
-            //primeiro numero
+            //pegando primeiro numero
             entrada = menu.pedirPrimeiroNum();
             if (menu.isSair(entrada)) break;
             try {
@@ -21,7 +21,7 @@ public class Main{
                 continue;
             }
 
-            //Operador
+            //pegando Operador
             entrada = menu.pedirOperador();
             if (menu.isSair(entrada)) break;
             String operacao = entrada;
@@ -35,7 +35,7 @@ public class Main{
                 continue;
             }
 
-            //Segundo numero
+            //pegando Segundo numero
             entrada = menu.pedirSegundoNum();
             if(menu.isSair(entrada)) break;
             try {
