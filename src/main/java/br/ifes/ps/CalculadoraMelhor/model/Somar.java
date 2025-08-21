@@ -1,4 +1,9 @@
 package br.ifes.ps.CalculadoraMelhor.model;
 
-public class Somar {
+public class Somar implements Operacao {
+    @Override
+    public double aplicar(double a, double b) { return a + b; }
+
+    @Override
+    public String simboloOperacao() { return "+"; }
 }

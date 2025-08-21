@@ -1,2 +1,9 @@
-package br.ifes.ps.CalculadoraMelhor.model;public class Subtrair {
+package br.ifes.ps.CalculadoraMelhor.model;
+
+public class Subtrair implements Operacao {
+    @Override
+    public double aplicar(double a, double b) {return a - b;}
+
+    @Override
+    public String simboloOperacao() {return "-";}
 }
